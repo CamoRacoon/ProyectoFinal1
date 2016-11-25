@@ -1,0 +1,265 @@
+/*GENERAL*/
+
+body, html {
+	font-size: 18px;
+}
+
+// HEADER
+.header {
+	width: 100%;
+	text-align: center;
+	&-banner {
+		margin: 0 auto;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+// BLACKBOX
+.blackbox {
+	width: 100%;
+	margin: 0 auto;
+	color: #294eff;
+	&-contain {
+		margin: 40px 280px;
+		&-img {
+			margin-bottom: 20px;
+			span {
+			font-size: 6.25em;
+			}
+		}
+		&-text {
+			border-top: 2px solid #294eff;
+			.text {
+				font-size: 0.94em;
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 20px;
+				&-text {
+					width: 48%;
+				}
+			}
+		}
+		&-bottom {
+			border-top: 1px solid #294eff;
+			display: flex;
+			margin-bottom: 20px;
+				span {
+				font-size: 6.25em;
+				}
+			.text {
+				font-size: 0.94em;
+			}
+		}
+	}
+}
+
+// COUNTER
+.counter {
+	font-size: 0.94em;
+	background-color: #294eff;
+	color: white;
+	margin: 0 auto;
+	padding: 40px 280px;
+	&-top {
+		width: 100%;
+		display: flex;
+		margin-bottom: 10px;
+		justify-content: space-between;
+		&-date {
+		}
+	}
+	&-body {
+		border: 1px solid white;
+		border-right: 0;
+		display: flex;
+		justify-content: space-between;
+		font-size: 7.5em;
+		margin-bottom: 10px;
+		text-align: center;
+		&-number {
+			border-right: 1px solid white;
+			padding: 20px;
+			width: 15%;
+		}
+	}
+	&-bottom {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+// COOKIE
+.cookie {
+	margin: 40px 200px;
+	color: #294eff;
+	&-content {
+		display: flex;
+		font-size: 0.94em;
+		color: white;
+		&-img {
+			width: auto;
+			max-width: 50%;
+			text-align: center;
+			img {
+				width: 615px;
+				height: 100%;
+			}
+		}
+		&-text {
+			background-color: #ffa9d3;
+			padding: 20px 40px;
+			width: auto;
+			.title {
+				font-size: 2em;
+			}
+			.button {
+				padding: 10px 60px;
+				margin-top: 20px;
+				background-color: #00e5d0;
+				border-style: none;
+				color: white;
+			}
+		}
+	}
+}
+
+// SHIPPING
+.shipping {
+	background-color: #294eff;
+	color: white;
+	margin: 0 auto;
+	padding: 40px 280px;
+	&-title {
+		border-top: 2px solid white;
+		padding-top: 20px;
+		font-size: 2em;
+	}
+	&-form {
+		&-form {
+			margin-top: 30px;
+			width: 100%;
+			.content {
+				display: flex;
+				justify-content: space-between;
+				&-text {
+					border: 1px solid white;
+					background-color: transparent;
+					color: white;
+					font-size: 0.83em;
+					width: 48%;
+					margin-bottom: 10px;
+					padding: 5px;
+				}
+			}
+			.button-button {
+				background-color: white;
+				color: #294eff;
+				width: 20%;
+				text-align: center;
+				padding: 10px;
+				font-size: 0.83em;
+				font-weight: bold;
+				margin-top: 20px;
+			}
+		}
+	}
+}
+
+// FAQ
+.faq {
+	width: 100%;
+	margin: 0 auto;
+	color: #294eff;
+	&-content {
+		margin: 40px 280px;
+		border-top: 2px solid #294eff;
+		&-title {
+			font-size: 2em;
+		}
+		&-list {
+			font-size: 0.94em;
+			list-style: none;
+			border-top: 1px solid #294eff;
+			padding: 0;
+			.item {
+			border-bottom: 1px solid #294eff;
+				padding: 5px 0;
+				span {
+					float: right;
+				}
+			}
+		}
+	}
+}
+
+// FOOTER
+.footer {
+	background-color: #294eff;
+	color: white;
+		&-content {
+		padding: 40px 200px 60px;
+		display: flex;
+		font-size: 0.78em;
+		&-blackbox {
+			width: 50%;
+			font-size: 1.50em;
+			.logo span {
+				font-size: 3.50em;
+			}
+		}
+		&-right {
+			float: right;
+			display: flex;
+			width: auto;
+			.menu {
+				display: flex;
+				justify-content: space-between;
+				width: auto;
+				&-text {
+					border-top: 1px solid white;
+					margin-right: 40px;
+					&-title {
+						font-size: 0.88em;
+					}
+					&-list {
+						list-style: none;
+						padding: 0;
+						.item {
+							margin-bottom: 15px;
+						}
+					}
+				}
+			}
+			.form {
+				border-top: 1px solid white;
+				width: auto;
+				&-updates {
+					font-size: 0.88em;
+				}
+				&-form {
+					border: 1px solid white;
+					&-field {
+						padding: 8px;
+						background-color: transparent;
+						border: none;
+						border-right: 1px solid white;
+						font-size: 0.88em;
+						width: 55%;
+						text-align: center;
+					}
+					&-button {
+						background-color: transparent;
+						border: none;
+						color: white;
+						width: 35%;
+						text-align: center;
+						font-size: 0.88em;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+	}
+}
