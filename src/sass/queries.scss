@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 1200px) {
+	.counter-body {
+		font-size: 4.5em;
+	}
+	.cookie-content-img {
+		height: auto;
+		img {
+			left: -100px;
+		}
+	}
+	.footer-content-right {
+		flex-direction: column;
+		.menu {
+			width: 100%;
+			&-text {
+				margin-right: 0;
+				width: 45%;
+			}
+		}
+		.form {
+			width: 100%;
+		}
+	}
+}
+@media screen and (max-width: 960px) {
+	body, html {
+	font-size: 18px;
+	}
+	.counter-body {
+		font-size: 2.5em;
+	}
+}
