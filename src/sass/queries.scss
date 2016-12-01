@@ -13,6 +13,7 @@
 		flex-direction: column;
 		.menu {
 			width: 100%;
+			padding-bottom: 30px;
 			&-text {
 				margin-right: 0;
 				width: 45%;
@@ -29,5 +30,127 @@
 	}
 	.counter-body {
 		font-size: 2.5em;
+	}
+}
+@media screen and (max-width: 860px) {
+	.blackbox-contain-text .text {
+		flex-direction: column;
+		&-text {
+			width: 100%;
+		}
+	}
+	.cookie-content {
+		flex-direction: column;
+		&-img {
+			margin-bottom: -5px;
+			img {
+				position: initial;
+				max-width: 100%;
+			}
+		}
+	}
+	.shipping-form-form .content {
+		flex-direction: column;
+		&-text {
+			width: 95%;
+		}
+	}
+}
+@media screen and (max-width: 700px) {
+	body, html {
+	font-size: 16px;
+	}
+	.footer-content {
+		flex-direction: column;
+		&-right {
+			width: 100%;
+		}
+	}
+	.counter-body-number {
+		padding: 5px;
+	}
+}
+@media screen and (max-width: 550px) {
+	.blackbox {
+		width: 80%;
+		&-contain {
+			&-img span {
+				font-size: 4.25em;
+			}
+			&-text .title {
+				font-size: 0.84em;
+			}
+			&-bottom .img {
+				vertical-align: middle;
+				span {
+					font-size: 4.25em;
+				}
+			}
+		}
+	}
+	.counter {
+		padding: 40px 10%;
+		width: 80%;
+	}
+	.cookie {
+		width: 90%;
+	}
+	.shipping {
+		padding: 40px 10%;
+	}
+	.faq {
+	width: 80%;
+	}
+}
+@media screen and (max-width: 300px) {
+	body, html {
+	font-size: 14px;
+	}
+	.blackbox-contain-bottom {
+		flex-direction: column;
+	}
+	.counter {
+		&-top {
+			flex-direction: column;
+			text-align: center;
+			&-date {
+				margin-top: 5px;
+			}
+		}
+		&-body {
+			font-size: 1.5em;
+		}
+	}
+	.cookie-content-text {
+		padding: 20px;
+		.button {
+		text-align: center;
+		padding: 10px;
+		}
+	} 
+	.shipping-form-form {
+		.content {
+			width: 80%;
+		}
+		.button-button {
+			width: 50%;
+		}
+	} 
+	.footer-content-right {
+		.menu {
+			flex-direction: column;
+			&-text {
+				width: 100%;
+				margin-top: 20px;
+			} 
+		}
+		.form-form {
+			&-field {
+				padding: 4px;
+			}
+			&-button {
+				padding: 4px;
+			}
+		}
 	}
 }
